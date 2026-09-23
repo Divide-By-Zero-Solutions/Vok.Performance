@@ -13,6 +13,8 @@
     <PackageProjectUrl>https://github.com/Divide-By-Zero-Solutions/Vok.Performance</PackageProjectUrl>
     <RepositoryUrl>https://github.com/Divide-By-Zero-Solutions/Vok.Performance</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
+    <RepositoryBranch>main</RepositoryBranch>
+    <PackageOutputPath>..\bin\Release</PackageOutputPath>
   </PropertyGroup>
 
 </Project>
