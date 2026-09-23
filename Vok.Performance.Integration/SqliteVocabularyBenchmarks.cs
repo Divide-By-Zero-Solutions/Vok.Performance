@@ -1,17 +1,8 @@
 using Vok.Domain.Models;
 using Vok.Infrastructure.Services;
 using BenchmarkDotNet.Attributes;
-using BenchmarkDotNet.Running;
 
-namespace Performance.Integration;
-
-/// <summary>Starts the SQLite integration BenchmarkDotNet suite.</summary>
-public static class Program {
-    /// <summary>Runs the SQLite vocabulary benchmark collection.</summary>
-    public static void Main(string[] args) {
-        BenchmarkRunner.Run<SqliteVocabularyBenchmarks>();
-    }
-}
+namespace Vok.Performance.Integration;
 
 /// <summary>Measures SQLite vocabulary setup, writes, and reads in isolation.</summary>
 [MemoryDiagnoser]
