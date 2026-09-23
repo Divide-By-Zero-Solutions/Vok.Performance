@@ -1,0 +1,32 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+.vs/
+
+# Test and coverage output
+TestResults/
+**/TestResults/
+coverage/
+coverage.*
+
+# BenchmarkDotNet output
+BenchmarkDotNet.Artifacts/
+**/BenchmarkDotNet.Artifacts/
+
+# IDE and local settings
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Local configuration and secrets
+.env
+.env.*
+*.pfx
+*.p12
+*.key
+*.pem
+
+# OS files
+.DS_Store
+Thumbs.db
