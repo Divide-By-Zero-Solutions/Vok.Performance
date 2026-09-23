@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Performance.Integration</name>
+    </assembly>
+    <members>
+        <member name="T:Performance.Integration.Program">
+            <summary>Starts the SQLite integration BenchmarkDotNet suite.</summary>
+        </member>
+        <member name="M:Performance.Integration.Program.Main(System.String[])">
+            <summary>Runs the SQLite vocabulary benchmark collection.</summary>
+        </member>
+        <member name="T:Performance.Integration.SqliteVocabularyBenchmarks">
+            <summary>Measures SQLite vocabulary setup, writes, and reads in isolation.</summary>
+        </member>
+        <member name="M:Performance.Integration.SqliteVocabularyBenchmarks.Setup">
+            <summary>Creates an isolated temporary database for the benchmark run.</summary>
+        </member>
+        <member name="M:Performance.Integration.SqliteVocabularyBenchmarks.Cleanup">
+            <summary>Deletes the temporary database after the benchmark run.</summary>
+        </member>
+        <member name="M:Performance.Integration.SqliteVocabularyBenchmarks.AddVocabularyTile">
+            <summary>Measures adding a vocabulary tile to SQLite.</summary>
+        </member>
+        <member name="M:Performance.Integration.SqliteVocabularyBenchmarks.ReadVocabularyTiles">
+            <summary>Measures reading tiles from a SQLite-backed category.</summary>
+        </member>
+    </members>
+</doc>
